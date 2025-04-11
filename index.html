@@ -1,81 +1,63 @@
 <!doctype html>
 <html lang="en">
-<head>
-    <title>Giriş</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Google Font: Source Sans Pro -->
-    <link href="sytle.css" rel="stylesheet">
-
-    <link rel="stylesheet" href="sytle1.css">
-
-    <link rel="stylesheet" href="sytle2.css">
-    <link rel="stylesheet" href="style3.css">
-
-</head>
-<body onload="OnLoad()">
-    <script>
-        function OnLoad() {
-            var el = document.getElementById("Username");
-            if (typeof el == "undefined") return;
-            if (el.value != "") {
-                var elPsw = document.getElementById("Password");
-                elPsw.focus();
-            }
-            else el.focus();
-        }
-    </script>
-    <section class="ftco-section">
+    <head>
+        <meta> charset="UTF-8">
+        <title>CV</title>
+        <link rel="stylesheet" href="style1.css">
+    </head>
+    <body>
         <div class="container">
-            
-
-
-<div class="row justify-content-center">
-    <div class="col-md-7 col-lg-5">
-        <div class="login-wrap p-4 p-md-5">
-            <div class="row mb-4">
-                <div class="col-6">
-                    <img src="2.png" height="170" />
+            <aside class="sidebar">
+                <img src="white.png" alt = "Profile Picture" class="profile-pic">
+                <div class="contact">
+                    <h3>Əlaqə</h3>
+                    <p>055273****</p>
+                    <p>xlilova********@gmail.com</p>
                 </div>
-                <div class="col-6">
+                <div  class="education">
+                    <h3>Təhsil</h3>
+                    <p>2013-2024<br><strong>209 nömrəli məktəb</strong>
+                    <p>2024-2028<br><strong>Azərbaycan texniki üniversteti</strong></p>
                 </div>
-            </div>   
-            <h4 class="text-center mb-4">Giriş</h4>
-            <form action="/Home/Login" method="post" class="login-form">
-                <div class="form-group">
-                    <input type="text" class="form-control rounded-left" name="UserId" id="Username" placeholder="İstifadə&#231;i adı" required value="202406437">
+                <div class="skills">
+                    <h3>Bacarıqlar</h3>
+                    <ul>
+                        <li>Lahiyə idarəetməsi</li>
+                        <li>Qrup işi</li>
+                        <li>Solution problems</li>
+                        <li>Kritik düşünmə</li>
+                        <li>Empatiya</li>
+                    </ul>
                 </div>
-                <div class="form-group d-flex">
-                    <input type="password" class="form-control rounded-left" id="Password" placeholder="Şifrə" name="Password" required>
+                <div class="languages">
+                    <h3>Dillər</h3>
+                    <p>Turkish(Fluent)</p>
+                    <p>Azerbaijan(Fluent)</p>
+                    <p>Russian(Basics)</p>
+                    <p>English(Intermediate)</p>
                 </div>
-                <div class="form-group">
-                    <button type="submit" class="form-control btn btn-primary rounded submit px-3">Daxil ol</button>
-                </div>
-                <div class="form-group d-md-flex">
-
-                    <div class="w-100 text-md-right">
-                        <a href="/Home/ForgotPassword">Şifrəni unutdum</a>
-                    </div>
-                </div>
-            </form>
+            </aside>
+            <main class="content">
+                <h1><span class="bold"></span>SANCHEZ</h1>
+                <h2>Nüfuzetmə sınaqçısı</h2>
+                <section class="profile">
+                    <h3>Haqqımda</h3>
+                    <p><strong>Xəlilova Aytac Elşən qızı</strong><br>055273****</p>
+                </section>
+                <section class="expeirence">
+                    <h3>İş təcrübəsi</h3>
+                    <div class="job">
+                        <p>Yoxdur</p>
+                </section>
+                <section class="reference">
+                    <h3>Texniki biliklər</h3>
+                    <p>Hal-hazırda tələbəyəm.</p>
+                    <p>Kali Linux mühitində işləmişəm.</p>
+                    <p>Maltego və digər OSİNT alətindəndən istifadə etmişəm.</p>
+                    <p>C++ dilində orta səviyyədəyəm.</p>
+                    <p>İlkin sofware bilikləri tanışam.</p>
+                </section>
+            </main>
         </div>
-    </div>
-</div>
-<div class="row justify-content-center">
-    <div class="col-md-7 col-lg-5 alert alert-danger mt-4 text-justify">
-        <b>Elektron Təhsil Sistem</b>-inə yeni giriş sistemi ilə daxil olmaq üçün professor-müəllim heyəti şifrəni Tədris Hissəsindən, tələbələr isə dekanlıqlardan əldə edə bilər.<br />
-
-    </div>
-</div>
-        </div>
-    </section>
-
-    <script src="script.js"></script>
-    <script src="script1.js"></script>
-    <script src="script2.js"></script>
-    <script src="script3.js"></script>
-    <script src="script4.js"></script>
-    
-
-</body>
+    </body>
 </html>
